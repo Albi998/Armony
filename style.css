@@ -207,6 +207,11 @@ h1 span {
     margin-top: 3rem;
     border: 1px solid #C3AB6C;
     padding: 1rem;
+    transition: 400ms;
+}
+
+.card-servizio:hover {
+    transform: scale(1.03);
 }
 
 #spazio {
