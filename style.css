@@ -498,9 +498,9 @@ h1 span {
     }
 
     #titolo img {
-        width: 12rem;
+        width: 70%;
         height: auto;
-        left: 9.5rem;
+        left: 50%;
         top: 10rem;
         /* animation-timeline: view(); */
     }
