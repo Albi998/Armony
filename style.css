@@ -7,6 +7,10 @@ html, body {
         overflow-x: hidden !important;
 }
 
+#main {
+    padding: 0px !important;
+}
+
 h1 {
     font-family: "Dancing Script", cursive;
     font-size: 5rem !important;
@@ -460,7 +464,8 @@ h1 span {
 @media (max-width: 600px) {
 
     #body {
-        margin-left: 8px !important;
+        padding-left: 8px !important;
+        padding-right: 8px !important;
         overflow-x: hidden !important;
     }
 
