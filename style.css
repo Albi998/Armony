@@ -93,8 +93,10 @@ h1 span {
 }
 
 #menu {
-    background-color: transparent !important;
-    /* position: fixed; */
+    background-color: white !important;
+    /* position: fixed;
+    width: 100%;
+    margin-top: 0rem; */
 }
 
 #border {
@@ -173,7 +175,7 @@ h1 span {
 #image-back {
     background-color: #C3AB6C;
     height: 30rem;
-    width: 100%;
+    /* width: 100%; */
     opacity: 70%;
     margin-top: 12rem;
 }
@@ -237,7 +239,7 @@ h1 span {
 
 .spazio-testo {
     /* background-color: #C3AB6C; */
-    opacity: 70%;
+    /* opacity: 70%; */
     height: 30rem;
     /* color: white; */
     color: #C3AB6C;
@@ -349,17 +351,10 @@ h1 span {
     text-align: center;
 }
 
-/* #opinioni #reviews {
-    margin-top: 50rem !important;
-} */
 
 
 
 /* FOOTER */
-
-/* #contatti {
-    height: 22rem;
-} */
 
 #bordo-top {
     border-top: 1px solid #C3AB6C;
@@ -458,6 +453,12 @@ h1 span {
         transform: translateX(0rem);
     }
 }
+
+
+
+
+
+/* RESPONSIVE */
 
 
 
@@ -598,5 +599,3 @@ h1 span {
         padding-bottom: 1.2rem;
     }
 }
-
-
