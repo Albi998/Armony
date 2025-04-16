@@ -459,6 +459,7 @@ h1 span {
 
     #body {
         margin-left: 8px !important;
+        overflow-x: hidden !important;
     }
 
     h1 {
@@ -484,39 +485,42 @@ h1 span {
     }
 
     .book-button {
-        margin-top: 12rem;
+        margin-top: 10rem;
         margin-left: 2rem;
     }
 
     #titolo img {
         width: 12rem;
         height: auto;
-        left: 10rem;
+        left: 9.5rem;
         top: 10rem;
         /* animation-timeline: view(); */
     }
 
+    /* #chisiamo {
+       height: 60rem !important;
+    } */
+
     #chisiamo img {
-        margin-top: 3rem;
-        width: 15rem;
-        left: 0rem;
+        /* margin-top: 3rem; */
+        position: static;
+        width: 80%;
+        /* left: 1rem; */
     }
 
     #image-back p {
         /* text-align: center; */
-        font-size: 0.8rem;
-        margin: 2rem;
-        margin-top: 8rem;
+        font-size: 1rem;
+        margin: 1rem;
+        /* margin-top: 2rem; */
         /* width: 100%; */
         text-align: start;
     }
 
     #image-back {
         /* background-color: #C3AB6C; */
-        height: 35rem;
-        /* width: 100%; */
-        /* opacity: 70%; */
-        /* margin-top: 12rem; */
+        height: 50rem !important;
+        margin-top: 3rem !important;
     }
 
     #servizi img {
@@ -529,12 +533,13 @@ h1 span {
     }
 
     .spazio-testo {
-        height: 30rem;
-        font-size: 0.8rem;
+        height: 100% !important;
+        width: 100% !important;
+        font-size: 1rem;
         /* color: white; */
         color: #C3AB6C;
         padding: 3rem !important;
-        /* padding-left: 15rem !important; */
+        padding-left: 3rem !important;
         /* width: 100%; */
         border: 1px solid #C3AB6C;
     }
